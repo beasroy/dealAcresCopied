@@ -35,10 +35,6 @@ const Navigation = () => {
   };
 
   const getLinkStyle = (index) => ({
-<<<<<<< HEAD
-    color: index < flag ? '#40A2E3' : '#000000',
-    fontWeight: index < flag ? 'bold' : 'normal',
-=======
     color:
        index < flag
         ? '#40A2E3'
@@ -47,7 +43,6 @@ const Navigation = () => {
       index <flag  
         ? 'bold'
         : 'normal',
->>>>>>> 33b1fe1b709683639474d8371f771090607b638d
     margin: '4px',
   });
 
@@ -56,15 +51,10 @@ const Navigation = () => {
   });
 
   return (
-<<<<<<< HEAD
-    <section className='container mx-auto'>
-      <div className="flex flex-col md:flex-row items-center justify-center px-4 py-2 w-full lg:w-[93%] max-xl:w-4/5 mx-auto rounded-3xl bg-[#c6e8fd]">
-=======
     <NavigationWrapper>
       <div className="flex flex-col md:flex-row items-center justify-center px-4 py-2 w-full lg:w-4/5 mx-auto rounded-3xl bg-[#c6e8fd]">
 
         
->>>>>>> 33b1fe1b709683639474d8371f771090607b638d
         <div className='font-bold text-[#40A2E3]'>Basic Details</div>
         <div className="grow border-b border-black"></div>
 
