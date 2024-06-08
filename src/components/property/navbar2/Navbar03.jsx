@@ -4,7 +4,6 @@ import styles from './navbar2.module.css'
 import Link from 'next/link';
 
 const Navbar03 = () => {
-<<<<<<< HEAD
 
     const Menu = () => (
         <>
@@ -28,9 +27,6 @@ const Navbar03 = () => {
           </p>
         </>
     );
-=======
-  
->>>>>>> 33b1fe1b709683639474d8371f771090607b638d
 
     return (
       <div className={styles.navbarContainer} >

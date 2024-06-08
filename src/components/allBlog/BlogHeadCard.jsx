@@ -7,11 +7,7 @@ const BlogHeadCard = ({
 
 }) => {
   return (
-<<<<<<< HEAD
-    <div className={` hover:bg-white/30 cursor-pointer transition-all py-2 px-4 rounded shadow-lg bg-black/30`}>
-=======
-    <div className={` hover:bg-white/10 cursor-pointer transition-all py-2 px-4 md:py-4 rounded shadow-lg bg-black/40 max-sm:bg-black/50`}>
->>>>>>> 33b1fe1b709683639474d8371f771090607b638d
+    <div className={` hover:bg-white/10  md:hover:bg-white/30 cursor-pointer transition-all py-2 px-4 rounded shadow-lg bg-black/30`}>
       <p className={`${color} text-base min-[768px]:text-xl font-bold`}>
         {title}
       </p>
