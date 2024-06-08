@@ -1,0 +1,49 @@
+.bedroom{
+    height: 60vh !important;
+    z-index: -1;
+}
+
+.why-choose-us{
+    width: 70%;
+    margin: -15% auto;
+}
+
+.readMore{
+    color: blue;
+}
+
+
+
+@media only screen and (max-width: 1124px) {
+    .bottom-margin{
+        margin-bottom: 190px;
+    }  
+    .why-choose-us{
+        margin-top: -10% !important;
+    }
+    
+}
+@media only screen and (min-width: 1124px) {
+    .bottom-margin{
+        margin-bottom: 270px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .why-choose-us{
+        margin-top: -25% !important;
+        width: 80%;
+    }
+    .bottom-margin{
+        margin-bottom: 200px;
+    }   
+}
+@media only screen and (max-width: 500px){
+    .why-choose-us{
+        margin-top: -40% !important;
+        width: 90%;
+    }
+    .bottom-margin{
+        margin-bottom: 150px;
+    }  
+}
