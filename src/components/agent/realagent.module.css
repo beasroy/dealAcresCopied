@@ -1,0 +1,101 @@
+.RealAgent{
+    width: 50%;
+    background-color: #0061fd15;
+    padding: 40px 20px;
+    margin-left: 12.5%;
+}
+.RealAgent h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Reasons img{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Reasons h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ReasonsBlock{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+
+.Reasons {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+    width: 33%;
+    flex-grow: 1;
+    flex-basis: 200;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 992px){
+    .RealAgent{
+        width: 70%;
+        padding: 30px 20px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .ReasonsBlock{
+        display: block; 
+        margin-top: 20px;   
+    }
+    .Reasons {
+        margin-top: 20px;   
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .RealAgent{
+        width: 100%;
+        padding: 30px 20px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .ReasonsBlock{
+        display: block; 
+        margin-top: 20px;   
+    }
+    .Reasons {
+        margin-top: 20px;   
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width: 768px){
+    .RealAgent h2{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: unset;
+    }
+
+    .Reasons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        padding: 8px;
+        width: unset;
+        flex-grow: unset;
+        flex-basis: unset;
+        margin-right: unset;
+    }
+
+    .Reasons p {
+        text-align: center;
+        font-size: 13px;
+    }
+}

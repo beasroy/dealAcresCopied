@@ -1,0 +1,104 @@
+.ContactDetails{
+    margin: 6rem auto;
+    width: 70%;
+    display: flex;
+}
+
+.DetailPad{
+    padding:0.5rem;
+    background-color: white;
+    margin: 0rem 1rem;
+}
+
+.DetailBox{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.DetailBox svg{
+    align-self: center;
+    justify-content: center;
+}
+
+/* .ContactForm{
+    padding: 50px;
+    width: 71%;
+    margin: auto;
+    /* border: 5px solid rgb(0, 0, 0, 0.1);  
+    padding: 10px;
+    background-color: white;
+    /* margin-bottom: 20px; 
+    border-radius: 15px;
+    box-shadow: rgba(9, 9, 9, 0.07);
+} */
+.ContactForm {
+    padding: 50px;
+    width: 71%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+}
+
+.contactHead{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 2px;
+}
+
+.ContactForm form{
+    padding-right: 30px;
+}
+
+.ContactForm p{
+    color: red;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-bottom: 25px;   
+}
+
+.ContactForm input, .ContactForm select{
+    display: block;
+    padding: 7px;
+    margin: 0px 10px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.15); 
+    border-radius: 10px;
+}
+
+.ContactForm select option{
+    padding: 200px;
+    margin-top: 20px;
+}
+
+.ContactForm button{
+    background-color: #0061fd;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.icons{
+    width:100%;
+    height: 20px;
+    margin: 20px 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .ContactDetails{
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    .DetailPad{
+        margin: 0rem 0rem;
+    }
+    
+} 

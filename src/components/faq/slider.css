@@ -1,0 +1,16 @@
+.slick-next {
+    right: 8px !important;
+   
+}
+
+.slick-next::before {
+    content: unset;
+}
+
+.slick-list {
+    padding-right: 10px !important;
+}
+
+.slick-prev::before {
+    content: unset;
+}

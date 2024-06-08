@@ -1,0 +1,37 @@
+.Layout{
+    margin: 0rem 9rem;
+}
+
+.BgDesign{
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.faq{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.spacer{
+    height: 5vh;
+}
+
+@media only screen and (max-width: 990px){
+    .Layout{
+        margin: 0rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .Layout{
+        margin: 0rem 0.5rem;
+    }
+    .faq{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}

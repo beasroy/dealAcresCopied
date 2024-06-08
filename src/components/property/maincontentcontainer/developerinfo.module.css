@@ -1,0 +1,42 @@
+.developerInfoContainer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+     border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 20px;
+   @apply shadow-lg
+
+}
+
+.developerInfoLogoContainer{
+    position: relative;
+    justify-content: center;
+    width: 23%;
+
+}
+
+.developerInfoContentContainer{
+    position: relative;
+    font-weight: 300;
+    justify-content: center;
+    width: 73%;
+}
+
+.developerInfoContentContainer span{
+    cursor: pointer;
+    margin-top: 2px;
+    color: #0061df;
+}
+
+@media screen and (max-width: 640px) {
+    .developerInfoContentContainer{
+  
+        font-weight: 500;
+        font-size: 12px;
+        line-height: normal;
+
+    }
+    
+}

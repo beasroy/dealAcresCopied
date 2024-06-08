@@ -1,0 +1,98 @@
+.BannerBg{
+    background: url("../../../public/allService/screen.webp");
+    object-fit: cover;
+    /* color: white; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotateY(180deg);
+    height: auto;
+}
+
+.BannerInfo{
+    width: 350px;
+    height: auto;
+    padding: 50px 20px;
+    transform: rotateY(180deg);
+    margin-right: 50px;
+}
+
+.Filter p{
+    color: white;
+    margin-top: 5px;
+}
+
+.Info, .Filter{
+    background-color: rgb(0, 0, 0, 0.30);
+    padding: 15px;
+}
+
+.Info{
+    text-align: center;
+    color: #fff845;
+    margin-bottom: 10px;
+}
+
+.Filter select{
+    padding: 10px 10px;
+    color: black;
+    border-radius: 7px;
+    margin: 7px 0px;
+    width: 100%;
+}
+
+.Filter option{
+    background-color: white;
+    color: black;
+}
+
+.SubmitButton button{
+    background: #fff;
+    color: #000;
+    padding:  5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.SubmitButton{
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .BannerInfo{
+        padding: 25px 20px;
+    }
+    .Filter select{
+        padding: 5px 5px;
+        border-radius: 7px;
+        margin: 2px 0px;
+    }
+    .Info{
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .BannerBg{
+        background-size: inherit;
+        background-position: top center;
+    }
+    .BannerInfo{
+        padding: 15px 10px 6px 10px;
+        /* margin: auto !important; */
+         margin-right: 0px; 
+         width: 240px;
+         @apply text-sm font-bold
+        
+        
+    }
+    .Filter select{
+        padding: 5px 5px;
+        border-radius: 7px;
+        margin: 3px 0px;
+        @apply text-sm font-thin
+    }
+    .Info{
+        margin-bottom: 7px;
+        @apply text-sm
+    }
+}

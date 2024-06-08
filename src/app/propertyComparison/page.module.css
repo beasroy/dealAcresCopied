@@ -1,0 +1,38 @@
+.Layout {
+    margin: 0rem 13rem;
+  }
+  
+  /* Adjust layout for screens with a max-width of 990px */
+  @media only screen and (max-width: 990px) {
+    .Layout {
+      margin: auto;
+      margin-left: 40px;
+      display: block;
+    }
+ 
+    .Layout .Comparison {
+      transform: scale(0.8); 
+    }
+  
+    .Layout .Hotspot img {
+      width: 70%; 
+    }
+  }
+  
+  /* Adjust layout for screens with a max-width of 500px */
+  @media only screen and (max-width: 500px) {
+    .Layout {
+      margin: 0rem 2rem;
+    }
+  
+    /* Further decrease size of entire compare projects section by 10% */
+    .Layout .Comparison {
+      transform: scale(0.9); /* 90% of the previous size */
+    }
+  
+    /* Further decrease size of images by 10% in Hotspot component */
+    .Layout .Hotspot img {
+      width: 70%; /* 70% of the previous width */
+    }
+  }
+  

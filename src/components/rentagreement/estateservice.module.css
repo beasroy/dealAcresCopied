@@ -1,0 +1,163 @@
+.EstateService{
+    width: 100%;
+    margin: auto;
+
+}
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+}
+.EstateService h2{
+    font-size: 32px;
+    font-weight: bold; 
+    margin: 20px 0px;
+
+
+}
+
+.MoreService{
+    background-color: #0061fd;
+    color: white;
+    padding:  5px 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.ServiceLayout{
+    width: 105px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 60px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    flex-basis: 200;
+    display: inline-block;
+}
+
+.ServiceLayout p{
+    font-size: 0.80rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+   height: 40px;
+}
+
+.ServiceLayout img{
+    padding: 5px;
+    width:90px;
+    height: 80px;
+    margin:auto;
+    align-self: center;
+}
+
+/* .Img{
+    width: 100px;
+    height: 300px;
+} */
+
+@media screen and (max-width: 768px){
+    .Services {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .ServiceLayout{
+        min-width: 150px;
+    }
+
+    
+}
+@media screen and (max-width: 768px){
+  
+    .Services {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 8px;
+    }
+
+    .ServiceLayout{
+        min-width: 120px;
+        max-width: 140px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .ServiceLayout p {
+        margin-bottom: 0px;
+    }
+
+    .ServiceLayout img {
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        align-self: center;
+    }
+
+    .EstateService h2 {
+        font-size: 30px;
+        margin: 0px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .MoreService{
+        margin: 8px 0px;
+        font-weight: bold;
+        
+    }
+
+
+}
+@media screen and (max-width: 640px){
+    .Services {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .ServiceLayout{
+        /* min-width: calc(30% - 16px);
+        margin: 0; */
+    }
+
+    .EstateService h2 {
+        font-size: 26px;
+    }
+    .MoreService {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 420px){
+    .Services {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .ServiceLayout{
+        min-width: 100px;
+        max-width: 120px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    .EstateService h2 {
+        font-size: 22px;
+
+    }
+    .ServiceLayout p {
+        font-size: 12px;
+    }
+
+    .MoreService {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+
+
+}
+

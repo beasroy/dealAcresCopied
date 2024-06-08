@@ -1,0 +1,218 @@
+@import '@fontsource/poppins';
+
+.staticCardContainer{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 4rem 0;
+    column-gap: 3rem;
+}
+
+.imgContainer{
+    width: 450px;
+    height: 500px
+}
+
+.img{
+    object-fit: cover;
+    outline: 15px solid white;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.sidecontent{
+    max-width: 600px;
+    margin-top: 3rem;
+}
+
+.sidecontent h3{
+    margin-top: 1rem;
+    font-size: 28px;
+}
+
+.sidecontent p{
+    font-weight: bold;
+    font-size: 23.6674px;
+    color: #a6a6a6;
+}
+
+.sidecontent h6{
+    margin-top: 4rem;
+    font-size: 25px;
+}
+
+.sidecontent button{
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    min-height: 65px;
+    color: #fff;
+    @apply 
+    bg-gradient-to-r from-teal-400 to-blue-700
+    hover:from-teal-600 hover:to-indigo-500
+    font-[Poppins];
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.decorativeBackground{
+    background: #ffebeb;
+    position: absolute;
+    transform: translate3d(-5%,-60%,0); 
+    z-index: -1;
+    width: 850px; 
+    height: 330px; 
+    border-radius: 50px; 
+    opacity: 0.5; 
+  }
+
+
+  @media screen and (max-width:1300px){
+    .decorativeBackground{
+        width: 750px;
+    }
+  }
+
+  @media screen and (max-width:1100px){
+
+    .staticCardContainer{
+        margin: 4rem 4rem 8rem 4rem;
+    }
+
+    .decorativeBackground{
+        display: none;
+    }
+
+    .imgContainer{
+        width: 400px;
+        height: 650px;
+    }
+
+    .img{
+        outline: none;
+        border-radius: 75px;
+    }
+
+    .sidecontent{
+        max-width: 400px;
+    }
+    
+    .sidecontent h3{
+        margin-top: 1rem;
+        font-size: 28spx;
+    }
+
+    .sidecontent h6{
+        margin-top: 2rem;
+        font-size: 28px;
+    }
+
+  }
+
+  @media screen and (max-width:1400px){
+    .decorativeBackground{
+        width: 850px;
+    }
+  }
+
+  @media screen and (max-width:1100px){
+
+    .staticCardContainer{
+        margin: 4rem 4rem 8rem 4rem;
+    }
+
+    .decorativeBackground{
+        display: none;
+    }
+
+    .imgContainer{
+        width: 450px;
+        height: 450px;
+    }
+
+    .img{
+        outline: none;
+        border-radius: 75px;
+    }
+
+    .sidecontent{
+        max-width: 300px;
+    }
+
+    .sidecontent p{
+        font-size: 20px;
+    }
+    
+    .sidecontent h3{
+        margin-top: 0.5rem;
+        font-size: 35px;
+    }
+
+    .sidecontent h6{
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+
+  }
+
+  @media screen and (max-width:900px){
+    .staticCardContainer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 4rem 1rem 4rem 1rem;
+    }
+
+    .sidecontent{
+        margin-top: 2rem;
+        max-width: 500px;
+    }
+
+    .imgContainer{
+        width: 500px;
+    }
+  }
+
+
+@media screen and (max-width:590px){
+    .staticCardContainer{
+        margin: 1rem 1rem 8rem 1rem;
+        padding: 0;
+        column-gap: 0;
+    }
+   
+    .imgContainer{
+        width: 300px;
+        height: 300px;
+    }
+
+    .img{
+        border-radius: 50px;
+    }
+
+    .sidecontent{
+        max-width: 350px;
+        padding-left: 1rem;
+    }
+
+    .sidecontent p{
+        font-size: 15px;
+    }
+
+    .sidecontent h3{
+        font-size: 20px;
+    }
+
+    .sidecontent h6{
+        font-size: 12px;
+    }
+
+    .sidecontent button{
+        min-height: 40px;
+        font-size: 15px;
+    }
+}

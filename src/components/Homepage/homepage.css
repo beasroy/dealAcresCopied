@@ -1,0 +1,39 @@
+
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile screens */
+    .Articlesmanual-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* For medium and large screens */
+    .Articlesmanual-container {
+      position: absolute;
+      top: 76%;
+      left: 35%;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    /* For mobile screens */
+    .toparticles-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    /* For medium and large screens */
+    .toparticles-container {
+      position: absolute;
+      top: 80%;
+      left: 30%;
+    }
+  }
+  

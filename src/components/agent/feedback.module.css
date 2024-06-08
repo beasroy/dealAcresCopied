@@ -1,0 +1,56 @@
+.feedbackPopup {
+  position: fixed;
+  background-color: #fbd950;
+  top: 35%;
+  left: 35%;
+  z-index: 500;
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.popupContent {
+  margin-top: 8%;
+}
+
+.popupContent h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.popupContent button {
+  background-color: #0061fd;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.closeButton {
+  float: right;
+}
+
+@media only screen and (max-width: 990px) {
+  .popupContent {
+    margin-top: 23%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .feedbackPopup {
+    top: 35%;
+    left: 15%;
+    width: 60%;
+    height: 30%;
+    background-color: #ffce38;
+  }
+}

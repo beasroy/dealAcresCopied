@@ -1,0 +1,93 @@
+.AboutTitle{
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    padding-bottom:20px;
+}
+.MainLayout{
+    width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    padding-bottom: 10px;
+    margin: auto;
+    gap: 40px;
+}
+
+.MainLayout div{
+    width: 50%;
+    flex-grow: 1;
+    flex-basis: 200;
+    
+}
+.MainLayout img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.MainLayout h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.MainLayout:nth-child(odd) h3{
+    text-align: end;
+}
+.MainLayout p{
+    text-align: justify;
+    /* padding-right: 20px; */
+}
+
+.MainLayout ul li{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 992px){
+    .AboutTitle{
+        width: 100%;
+        padding:20px;
+    }
+    .MainLayout{
+        width: 100%;
+        display: flex;
+    }
+}
+@media only screen and (max-width: 768px){
+    .AboutTitle{
+        font-size: 30px;
+        padding: 12px 20px;
+        padding-bottom: 0px;
+    }
+
+    .AboutTitle span {
+        display: block;
+    }
+    .MainLayout{
+        display: flex;
+        flex-wrap: wrap;
+        @apply px-5
+    }
+    .MainLayout:nth-child(odd) h3{
+        text-align: start;
+    }
+    .MainLayout:nth-child(odd){
+        width:100% !important;
+        /* flex-direction: column-reverse; */
+        flex-flow: row-reverse wrap-reverse;
+    }
+
+
+    .MainLayout img {
+        max-height: 180px;
+        object-fit: unset;
+    }
+
+    .MainLayout p, .MainLayout li {
+        font-size: 14px;
+    }
+}

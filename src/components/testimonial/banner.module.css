@@ -1,0 +1,56 @@
+/* banner */
+
+.Banner{
+    padding: 0rem 12rem;
+    position: relative !important;
+    height: 40vh; 
+    overflow: hidden; 
+}
+
+.Title{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+
+
+@media only screen and (max-width: 1034px)  {
+    .Title{
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+        top: 28%;
+    }
+    .Banner{
+        margin: 0rem 3rem;
+        height: 30vh;
+    }
+}
+@media only screen and (max-width: 992px)  {
+    .Title{
+        font-size: 2rem;
+        letter-spacing: 3px;
+        top: 15%;
+    }
+    .Banner{
+        margin: 0rem 3rem;
+        height: 30vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+    .Title{
+        font-size: 2rem;
+        letter-spacing: 1px;
+     
+    }
+    .Banner{
+        margin: 0rem;
+
+        object-fit: unset;
+    }
+}

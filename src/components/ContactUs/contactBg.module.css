@@ -1,0 +1,42 @@
+.ContactBg{
+    
+    background: url("../../../public/Contact/ContactBg.webp");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 6% 0%;   
+}
+
+.ContactBoxPad{
+    padding:1rem;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+.ContactBox{
+    border:2px solid black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.ContactBox h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ContactBox p{
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+    .ContactBoxPad{
+        width: 90%;
+        padding: 0.8rem;
+      
+    }
+    
+} 
+
+

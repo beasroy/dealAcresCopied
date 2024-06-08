@@ -1,0 +1,232 @@
+@import '@fontsource/poppins';
+
+.headerContainer{
+    display:flex;
+    height: 85vh;
+}
+
+.IMG{
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+}
+
+.headerContent{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+}
+
+.headerContent h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    @apply text-white
+    font-[Poppins]
+}
+
+.TextWrap{
+    display: flex;
+    width: 30%;
+    /*#0061df*/
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem 2rem 0;
+}
+
+.TextWrap p{
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    @apply text-white
+
+}
+
+.selected{
+    text-decoration-line: underline;
+}
+
+.TextWrap p:hover{
+    text-decoration-line: underline;
+}
+
+.HeaderContentInput{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    padding: 4px;
+    border-radius: 10px;
+   
+}
+
+.HeaderContentInput input{
+    flex: 3;
+    width: 100%;
+    min-height:50px;
+    font-size: 17px;
+    line-height: 27px;
+    color:black;
+    outline: none;
+    padding: 0 1rem;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.HeaderContentInput button{
+    @apply 
+    bg-gradient-to-r from-teal-400 to-blue-700
+    hover:from-teal-600 hover:to-indigo-500;
+    flex: 1;
+    border-radius: 0 5px 5px 0;
+    /*font-family: var(--font-family);*/
+    width: 100%;
+    min-height:50px;
+    cursor:pointer;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 27px;
+    color:#fff; 
+    outline: none;
+    padding: 0 1rem;
+
+}
+.LocationDropdown {
+    display: flex;
+    flex: 2;
+    
+}
+  
+.LocationDropdown select {
+    width: 100%;
+    min-height: 50px;
+    font-size: 17px;
+    line-height: 27px;
+    color: black;
+    outline: none;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.cta{
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    cursor: pointer;
+    z-index: 5;
+    animation: levitate 2s ease-in-out infinite;
+}
+
+@keyframes levitate {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15%);
+    }
+  }
+
+@media screen and (max-width:1300px) and (min-width:1100px){
+    .HeaderContentInput{
+        display: flex;
+        width: 75%;
+        background-color: white;
+        padding: 8px;
+        border-radius: 10px;
+       
+    }
+    .headerContent h1{
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        @apply text-white
+        font-[Poppins]
+    }
+    .HeaderContentInput button{
+        min-height:50px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 25px;
+        padding: 0 0.5rem;
+    
+    }
+    .LocationDropdown {
+        display: flex;
+        flex: 2.4;
+        
+    }
+    .LocationDropdown select {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 0.25rem; 
+    }
+} 
+
+@media screen and (max-width:1050px){
+    .TextWrap{
+        width: 70%;
+    }
+
+    .HeaderContentInput{
+        width: 85%;
+        border-right: none;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .TextWrap{
+        width: 80%;
+    }
+
+    .HeaderContentInput{
+        width: 100%;
+    }
+
+    .HeaderContentInput button{
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .headerContent{
+        padding: 2rem;
+    }
+
+    .headerContent h1{
+        font-size: 45px;
+    }
+
+    .TextWrap{
+        width: 100%;
+    }
+
+    .TextWrap p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .HeaderContentInput{
+        flex-direction: column;
+    }
+
+    .HeaderContentInput input{
+        min-height:45px;
+        font-size: 16px;
+        margin-bottom: 1rem;
+        border-radius: 0.25rem;
+    }
+    .HeaderContentInput button{
+        min-height:45px;
+        font-size: 18px;
+        border-radius: 0.25rem;
+    }
+}

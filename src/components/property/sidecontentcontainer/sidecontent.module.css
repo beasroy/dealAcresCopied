@@ -1,0 +1,53 @@
+.sideContainer{
+    width: 100%;
+    @apply shadow-md h-fit
+
+   
+}
+
+.sideContainer form{
+    width: 100%;
+    margin: auto;
+}
+
+.sideContainer form h4{
+    font-weight: 900;
+    color: #0061df;
+    font-size: 20px;
+}
+
+.formTermsCond{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.formTermsCond label{
+    font-size: 12px;
+}
+
+.formTermsCond label a{
+    color: #0061df;
+}
+
+.sideContainer form button{
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    min-height: 30px;
+    color: #fff;
+    background-color: #0061df;
+    border-radius: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sideContainer form{
+        width: 100%;
+        margin:  unset;
+    }
+
+} 

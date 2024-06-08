@@ -1,0 +1,45 @@
+.guideCard {
+    width: 10rem;
+    height: 15rem;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    .guideCard {
+        width: 9rem;
+        align-self: stretch;
+    }
+}
+@media screen and (min-width: 1000px) {
+
+    .guideCard {
+        height: 14rem;
+        width: 10rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    
+    .guidesContainer {
+        /* width: 100%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* padding: 2rem; */
+        justify-content: center;
+        
+
+    }
+    
+    .guideCard {
+        width: 10rem;
+        /* align-self: stretch; */
+        justify-content: center;
+        height: 14rem;
+      
+    }
+}
+
+
+

@@ -1,0 +1,10 @@
+.topicButton {
+    background: white;
+    border:1px solid;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s;
+}
+
+.topicButton:hover {
+    transform: translateY(-2px);
+}

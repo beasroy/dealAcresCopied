@@ -1,0 +1,23 @@
+.ExpertSidebar{
+    border: 2px solid #004add;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.AdImg{
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Tagline{
+    color: #004aad;
+    text-align: center;
+    background-color: #ffde59;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16.7px;
+    width: 100%;
+}

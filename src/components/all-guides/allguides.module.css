@@ -1,0 +1,83 @@
+.banner {
+    background-image: url('../../../public/all-guides/banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bannerIcons {
+    position: relative;
+    z-index: 2;
+}
+
+.bannerIcons::before, .bannerIcons::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+   
+ 
+    
+}
+
+
+
+
+
+.bannerText {
+    text-shadow: 3px 3px 3px black;
+    letter-spacing: 3px;
+}
+
+
+/* checklist */
+
+.checkListContainer{
+
+    border-radius: 1rem;
+    z-index: 2;
+    @apply shadow-xl border-2
+}
+
+.checkList{
+    position: relative;
+}
+.checkList::before {
+    content: '';
+    position: absolute;
+    width: 38px;
+    top:0;
+    bottom: 0;
+    left: -10px;
+    background-color: #E7F0FF ;
+    z-index: -1;
+    border-radius: 1rem;
+}
+
+/* manuals card */
+/* #E4E4E4 */
+.cardContainer {
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 16px 24px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardContainer:hover {
+    transform: translate(10px, -8px); 
+}
+
+@media screen and (max-width: 768px) {
+    .checkListContainer {
+        box-shadow: none;
+    }
+    .checkList::before {
+        width: 40px;    
+    }
+
+    .cardContainer {
+        border-radius: 0px;
+        box-shadow: none;
+        transition: transform 0.3s ease-in-out;
+    }
+}

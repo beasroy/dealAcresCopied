@@ -1,0 +1,13 @@
+.generalHeading {
+    position: relative;
+}
+
+.generalHeading::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    bottom: 5px;
+    opacity: 0.5;
+}

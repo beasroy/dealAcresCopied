@@ -1,0 +1,31 @@
+.penIcon {
+	position: relative;
+	height: 48px;
+	width: 48px;
+	display: inline-flex;
+}
+.penIcon::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	background-image: url('../../../public/locationReview/pad.webp');
+	/* inset: 0; */
+	background-size: 24px, 24px;
+	width: 24px;
+	height: 24px;
+	top: 24px;
+}
+  
+.penIcon::after {
+	position: absolute;
+	content: "";
+	background-image: url('../../../public/locationReview/pen.png');
+	/* inset: 0; */
+	background-size: 24px, 24px;
+	top: 18px;
+	left: 6px;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+  

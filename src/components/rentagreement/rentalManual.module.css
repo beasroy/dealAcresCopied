@@ -1,0 +1,94 @@
+.RentalManual {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ManualImg {
+    width: 22%;
+    align-self: center;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+.ManualImg img {
+    padding: 20px;
+    margin: auto;
+    max-width: 250px;
+    max-width: 250px;
+
+}
+
+.ManualImg h3 {
+    font-size: 35px;
+    color: #593d34;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Articles {
+    width: 70%;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .RentalManual {
+        background:  rgb(246, 239, 229);
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        max-height: 250px;
+        height: 250px;
+    }
+
+
+    .ManualImg {
+        width: 30%;
+        align-self: center;
+        flex-grow: unset;
+        flex-basis: unset;
+        max-width: 35%;
+    }
+
+    .ManualImg img {
+        padding: 0px;
+        margin: unset;
+        max-width: 100%;
+
+    }
+
+    .ManualImg h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #593d34;
+        text-align: center;
+        margin-bottom: unset;
+    }
+
+    .Articles {
+        width: 65%;
+        flex-grow: unset;
+        flex-basis: unset;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+    .ManualImg h3 {
+        font-size: 20px;
+    }
+    .ManualImg img {
+        min-width: 130px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .ManualImg h3 {
+        font-size: 18px;
+    }
+    .ManualImg img {
+        min-width: 105px;
+    }
+   
+}

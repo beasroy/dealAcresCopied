@@ -1,0 +1,193 @@
+.AskDealAcres{
+    background: url('../../../public/Agent/AskDealAcres.webp');
+    object-fit: cover;
+    position: center;
+    @apply h-[80%]
+}
+
+
+.ContactForm{
+    width: 35%;
+    margin-left: 220px;
+    padding: 10px;
+    background-color: rgba(24, 24, 24, 0.7);
+}
+
+
+.ContactForm form{
+    padding: 5px 30px;
+}
+
+.ContactForm p{
+    color: red;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-bottom: 16px;   
+}
+
+.ContactForm label{
+    /* margin-left: 15px;  */
+    color: white;
+}
+
+.ContactForm input, .ContactForm select{
+    display: block;
+    padding: 1.5px;
+    /* margin: 0px 10px; */
+    width: 90%;
+    border: 1px solid rgb(0, 0, 0, 0.15); 
+    /* border-radius: 10px; */
+}
+
+.ContactForm select option{
+    padding: 200px;
+    margin-top: 20px;
+}
+
+.ContactForm button{
+    background-color: #0061fd;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* border-radius: 10px; */
+}
+
+.TitleInfo h2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+    color: white;
+    text-align: center;
+}
+
+.TitleInfo p{
+    /* font-weight: bold; */
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .ContactDetails{
+        margin: 3rem auto;
+        width: 95%;
+        display: block;
+    }
+    .DetailPad{
+        margin: 1rem 0rem;
+    }
+    .ContactForm{
+        width: 55%;
+        margin-left: 110px;
+    }
+} 
+@media only screen and (max-width: 992px) {
+    .ContactDetails{
+        margin: 3rem auto;
+        width: 95%;
+        display: block;
+    }
+    .DetailPad{
+        margin: 1rem 0rem;
+    }
+    .ContactForm{
+        width: 85%;
+        margin-left: 30px;
+    }
+    
+} 
+
+
+@media only screen and (max-width: 768px) {
+    .AskDealAcres{
+        background: url('../../../public/Agent/AskDealAcres.webp');
+        object-fit: cover;
+        position: static;
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ContactForm{
+        width: unset;
+        margin-left: unset;
+        padding: 10px;
+        background-color: rgba(24, 24, 24, 0.7);
+    }
+    
+
+    .TitleInfo h2{
+
+        font-weight: bold;
+        font-size: 24px;
+        /* margin-left: 15px; */
+        color: white;
+        text-align: center;
+    }
+    
+    .TitleInfo p{
+        /* font-weight: bold; */
+        font-size: 18px;
+        color: white;
+        text-align: center;
+    }
+
+    .ContactForm input, .ContactForm select{
+        display: block;
+        padding: 8px;
+        /* margin: 0px 10px; */
+        width: 100%;
+        border: 1px solid rgb(0, 0, 0, 0.15); 
+        /* border-radius: 10px; */
+    }
+
+} 
+
+@media only screen and (max-width: 640px){
+    .TitleInfo h2 {
+        margin: unset !important;
+        font-size: 24px;
+    }
+    .TitleInfo p {
+        font-size: 16px;
+        margin: unset !important;
+    }
+
+    .ContactForm form {
+        padding: 12px 24px;
+   
+    }
+
+    .ContactForm input {
+        padding: 4px;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .ContactForm label {
+    
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .ContactForm p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .TitleInfo h2 {
+        margin: unset !important;
+        font-size: 22px;
+    }
+
+    .TitleInfo p {
+        font-size: 14px;
+        margin: unset !important;
+    }
+}
+
+
+  

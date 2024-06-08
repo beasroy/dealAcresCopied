@@ -1,0 +1,69 @@
+{
+    "intro": {
+        "title": "Beware - Use your Judgment",
+        "content": "It is in the interests of a user to exercise his/her best judgment to assess properties' and owners' authenticity. The claims being made may or may not be correct, a user is therefore advised to independently verify the authenticity of the claims being made. To this end, we have compiled a checklist which may help a user avoid deceit. We recommend that all our users MUST go through the checklist (mentioned below) prior to purchasing or renting a house."
+    },
+    "sections": [
+        {
+            "title": "How to Avoid Real Estate Fraud?",
+            "content": "",
+            "has_list": "true",
+            "list_header": "",
+            "lists": [
+                "Do not send money online to a 'supposed landlord/owner' using UPI, net banking, debit/credit cards, etc. if you have not met them personally.",
+                "We do not recommend paying any property visit charges, gate pass charges, booking amount etc. over a call.",
+                "In case a broker is showing you the property, make sure that you meet the owner or have a web session with him.",
+                "Do not handover any part of the consideration/rent to the broker.",
+                "Be wary of disputed land titles.",
+                "Be suspicious of realty investments promising high returns (due to infra development) with little/no risk.",
+                "Visit the property personally to check the interior and exterior condition; conduct due diligence.",
+                "Opt for properties that have at least 3-4 clear photos of bedrooms, bath and kitchen area.",
+                "Familiarise yourself with the neighbourhood, before moving in."
+            ],
+            "img": "search.jpg"
+        },
+        {
+            "title": "For a Buyer/Investor",
+            "content": "The buyer should conduct checks and establish the authenticity of any property, or project, its title, built-up area (in standardized unit), and suitability for buying in a form and manner deemed appropriate at his or her COST.<br/>Deal Acres being an advertising medium does not and can not vouch for the authenticity of the content on its site. A lot of content is uploaded by the advertiser and we do not filter or verify the same. If a complaint is made, we will take remedial measures.",
+            "has_list": "true",
+            "list_header": "Certain points to bear in mind:",
+            "lists":[
+                "Conduct a comprehensive check of ownership to verify the developer's/owners' credentials.",
+
+                "Visit the project site/property personally, to ensure that the broker's or developer's claim is genuine and that the property is not an 'imaginary' one.",
+
+                "Opt for a builder with a good track record, checking the past record of the promoters may be helpful.",
+
+                "Beware of false title documents. Loans may have been secured against properties that may be disputed or have remained vacant for long.",
+                "It is always advisable that proper due diligence on the property is conducted prior to entering into a transaction related to real estate.",
+
+                "Keep in mind that open areas - lobby, park, terrace, pool, gymnasium, and lift/elevator - are not a part of Floor Space Index (FSI) or Floor Area Ratio (FAR).",
+
+                "The Real Estate (Regulation and Development) Act 2016 and its related provisions and their applicability to the project."
+                ],
+
+            "img": ""
+        },
+        {
+            "title": "For a Tenant",
+            "content": "",
+            "has_list": "true",
+            "list_header": "Certain points to bear in mind:",
+            "lists":["Visit the accommodation/property and meet the landlord.",
+
+            "We strongly recommend to NEVER PAY any property visit charges, gate pass charges, booking amount, etc. for visiting a property.",
+            
+            "Check all the rooms, including the kitchen and bath area for plumbing problems, such as fixture leaks and seepages, clogged drains and pipelines.",
+            
+            "Find out about the security deposit in a particular area before making the payment. Unscrupulous individuals may ask for unjustified amounts of money.",
+            
+            "Ascertain access, safety and security.",
+            
+            "Ascertain all areas in standardized units."]
+            ,
+
+            "img": "scam.webp"
+        }
+        
+    ]
+}

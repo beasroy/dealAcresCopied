@@ -1,0 +1,15 @@
+.singleDevMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+ 
+
+@media screen and (max-width: 768px){
+    .singleDevMainContainer{
+
+        row-gap: 1rem;
+    }
+    
+}

@@ -1,0 +1,96 @@
+.fdiv{
+    @apply md:flex 
+    md:justify-between
+    md:items-center
+    sm:px-12
+    px-4
+    /* bg-[#ffffff19] */
+    bg-gray-800
+    py-7
+}
+
+.fdiv_text
+{
+    @apply text-2xl
+    lg:text-3xl
+    md:mb-0
+    mb-6
+    font-semibold
+    font-[Poppins]
+    md:w-2/5
+}
+
+.input
+{
+    @apply text-gray-800
+    sm:w-72
+    w-full 
+    sm:mr-5 
+    mr-1 
+    lg:mb-0 
+    mb-4 
+    py-2.5 
+    rounded 
+    px-2 
+    focus:outline-none
+}
+.button
+{
+    @apply 
+    /* bg-blue-400  */
+    bg-gradient-to-r from-teal-400 to-blue-700
+    /* hover:bg-teal-500  */
+    hover:from-teal-600 hover:to-indigo-500
+
+    duration-300 
+    px-5 
+    py-2.5 
+    font-[Poppins]
+    rounded-md 
+    text-white 
+    md:w-auto 
+    sm:w-72
+    w-full
+}
+.item{
+    @apply text-gray-400 
+    hover:text-[#0061df] 
+    duration-300
+    text-sm
+    font-[Poppins]
+    cursor-pointer 
+    leading-6
+    py-1
+}
+
+
+.itemcont{
+    @apply sm:grid 
+    sm:grid-cols-3 
+    lg:grid-cols-4 
+    sm:first-line:gap-6 
+    sm:px-8 
+    pb-8 
+
+}
+
+.lastdiv{
+    @apply grid 
+
+    sm:grid-cols-3 
+    gap-10
+    text-center 
+    pt-2 
+    text-gray-400 
+    text-sm pb-8 
+    font-[Poppins]
+}
+
+@media screen and (max-width: 1024px) {
+    .itemcont{
+        @apply flex flex-nowrap gap-8  overflow-x-auto px-4 py-8 pb-4 
+    }
+
+
+    
+}

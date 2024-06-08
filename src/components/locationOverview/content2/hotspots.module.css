@@ -1,0 +1,58 @@
+.hotspotsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hotspotsItemContainer{
+    width: calc(100% / 5 - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hotspotsItemContainer h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hotspotsImageContainer{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 0.75rem;
+}
+
+@media screen and (max-width: 920px){
+    .hotspotsImageContainer{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 640px){
+    .hotspotsContainer{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: start;
+        gap: 12px;
+        padding: 8px 0;
+
+    }
+
+    .hotspotsItemContainer{
+        min-width: 120px;
+
+    }
+
+    .hotspotsItemContainer h6{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}

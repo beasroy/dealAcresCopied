@@ -1,0 +1,81 @@
+.locationOverviewContainer{
+    width: 100%;
+    padding: 2rem 12rem 2rem 12rem;
+    overflow: hidden;
+}
+
+
+.locationOverviewContainer h5 {
+    @apply !text-lg xs:!text-xl sm:!text-2xl lg:!text-3xl  !font-bold;
+}
+
+.locationOverviewTopContainer{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 58% 40%;
+}
+
+.mapContainer{
+    width: 100%;
+   
+}
+
+.mapContainer iframe{
+    width: 100%;
+    height: 300px;
+}
+
+.locationOverviewContent1Container{
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 62% 32%;
+}
+
+
+.locationOverviewContent2Container{
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px){
+    .locationOverviewContainer{
+        padding:2rem 9rem 2rem 9rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .locationOverviewContainer{
+        padding: 2rem 7rem 2rem 7rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .locationOverviewContainer{
+        padding: 2rem 5rem 2rem 5rem;
+    }
+
+    .locationOverviewTopContainer{
+        grid-template-columns: 100%;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .locationOverviewContainer{
+        padding: 2rem 3rem 2rem 3rem;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+
+    .locationOverviewContainer{
+        padding: 1rem;
+    }
+    .locationOverviewContent1Container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}

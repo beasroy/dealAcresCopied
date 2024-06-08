@@ -1,0 +1,94 @@
+.singleDevPageContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;;
+    padding: 3rem 8rem 3rem 8rem;
+}
+
+.singleDevPageContentContainer{
+    width: 100%;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 62% 32%;
+}
+
+.singleDevPageContainer h5{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 1264px){
+    .singleDevPageContainer{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        row-gap: 2rem;;
+        padding: 1rem 6rem 1rem 6rem;
+    }
+    
+    /* .singleDevPageContentContainer{
+        width: 100%;
+        justify-content: space-between;
+        display: block;
+
+    }
+    
+    .singleDevPageContainer h5{
+        font-size: 28px;
+        font-weight: 700;
+    } */
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    .singleDevPageContainer{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        row-gap: 2rem;;
+        padding: 0 2rem;
+    }
+    
+    .singleDevPageContentContainer{
+        width: 100%;
+        justify-content: space-between;
+        display: block;
+
+    }
+    
+    .singleDevPageContainer h5{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 640px) {
+    .singleDevPageContainer{
+        width: 100%;
+        display: block;
+
+        row-gap: 2rem;;
+        padding: 0 1rem;
+    }
+    
+    .singleDevPageContentContainer{
+        width: 100%;
+        justify-content: space-between;
+        display: block;
+
+    }
+    
+    .singleDevPageContainer h5{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    
+    
+    
+}
+

@@ -1,0 +1,232 @@
+.localityOverviewContainer{
+    width: 100%;
+
+
+}
+
+.localityHead{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.localityHeadMain h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.localityHeadMain h5{
+    font-weight: 300;
+}
+
+.localityHead button{
+    background-color: #0061df;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-weight: 700;
+    min-height: 30px;
+    border-radius: 20px;
+}
+
+.localityContent{
+    width: 100%;
+    /* border: 2px solid rgba(63, 62, 62, 0.5); */
+   
+    border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 20px;
+    padding: 15px;
+   @apply shadow-lg
+}
+
+
+
+.localityContentHead{
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: justify;
+    
+}
+
+.localityContentHead h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.localityContentHead h6{
+    color: #0061df;
+    cursor: pointer;
+}
+
+.localityContentData{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.localityContentDataProCon{
+    width: 95%;
+    border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 4px;
+}
+
+.localityContentDataProCon h2{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.localityContentDataProCon li{
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and  (max-width: 980px) and (min-width: 768px){
+    .localityContentData {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+
+    }
+}
+@media screen and  (max-width: 590px){
+    .localityContentData {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+
+    }
+}
+@media screen and  (max-width: 768px){
+    .localityOverviewContainer{
+        width: 100%;
+    }
+    
+    .localityHead{
+        width: 100%;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .localityHeadMain h2{
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .localityHeadMain h5{
+        font-weight: 400;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    
+    .localityHead button{
+        background-color: #0061df;
+        color: white;
+        padding: 6px;
+        font-weight: 700;
+        min-height: 30px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+    
+    .localityContent{
+        width: 100%;
+        /* border: 2px solid rgba(63, 62, 62, 0.5);
+        border-radius: 20px; */
+        padding: 15px;
+    }
+    
+    
+    
+    .localityContentHead{
+        width: 100%;
+        padding-bottom: 1rem;
+        
+    }
+    
+    .localityContentHead h3{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .localityContentHead h6{
+        color: #0061df;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .localityContentData{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 90% 90%;
+        overflow-x: auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .localityContentDataProCon{
+        width: 100%;
+        
+        border-radius: 10px;
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap: 8px;
+ 
+    }
+    
+    .localityContentDataProCon h2{
+        font-size: 20px;
+        margin-bottom: 0.5rem;
+    }
+    
+    .localityContentDataProCon li{
+        font-size: 16px;
+        padding: 8px 0;
+        margin-bottom: 4px;
+    }
+}
+
+  
+@media screen and (max-width: 420px){
+
+    .localityHeadMain h2 {
+        font-size: 16px;
+    }
+
+    .localityHeadMain h5 {
+        font-size: 10px;
+    }
+
+    .localityHead button {
+        white-space: nowrap;
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .localityContent h5 {
+        font-size: 10px;
+    }
+
+    .localityContentHead p {
+        font-size: 14px;
+    }
+    
+    .localityContentData {
+        margin-bottom : 0rem;
+    }
+
+    .localityContentDataProCon li{
+        font-size: 12px;
+        padding: 4px 0;
+        margin-bottom: 4px;
+    }
+    
+}

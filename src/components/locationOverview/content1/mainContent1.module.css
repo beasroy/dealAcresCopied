@@ -1,0 +1,43 @@
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.mainContainer h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mainContainer h5{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+
+.mainContainerLine{
+    width: 80%;
+    height: 1px;
+    background-color: black;
+    margin-top: 16px;
+}
+
+.mainContainerHead h6{
+    font-size:15px;
+}
+
+.mainContainerContent h6{
+    cursor: pointer;
+    margin-top: 4px;
+    color: #0061df;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+    .mainContainerLine {
+        margin-top: 8px;
+    }
+}

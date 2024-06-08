@@ -1,0 +1,266 @@
+.container {
+    text-align: center;
+    padding: 15px 0 30px 0;
+    width:100%;
+  }
+  
+  .animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .heading {
+    /* font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px; */
+    @apply font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#0e4690e5] mb-1 sm:mb-3 md:mb-5
+  }
+  
+  .subheading {
+    /* font-size: 18px;
+    color: #078fe9;
+    margin-bottom: 30px; */
+    @apply text-xs sm:text-sm md:text-base mb-3 sm:mb-5 md:mb-7 text-[#4b4c4d]
+  }
+  
+  .imagesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px;
+
+    /* @apply mx-8 */
+  }
+  
+  /* .imageWrapper {
+    width: 200px;
+    height: 260px;
+    
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    @apply bg-blue-200 sm:mx-2 rounded-xl sm:rounded-3xl
+  } */
+  
+  .imageWrapper:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+
+    /* border: 12px solid #e0f0ff; */
+    transition: transform 0.3s ease-in-out;
+    /* @apply rounded-xl sm:rounded-full sm:p-2 p-[2px] */
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  
+    transition: transform 0.3s ease-in-out;
+    margin-right: 15px;
+    @apply shadow-xl
+}
+   
+  .textWrapper {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-size: 12px;
+    font-weight:500;
+    /* Set the following to ensure the text is visible on top of the image */
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px; /* Add some padding to the text */
+   
+  }
+  
+  
+  
+  .image:hover {
+    transform: scale(1.1);
+  }
+
+  /* For screens larger than 1024px */
+@media (min-width: 1024px) {
+  .container {
+    max-width:100%;
+    margin: auto;
+    /* margin-bottom: 30px; */
+  }
+
+  .imageWrapper {
+    width: 200px;
+    height: 260px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+/* For screens between 600px and 1023px */
+@media (max-width: 1023px) and (min-width: 750px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+    padding:15px;
+  }
+
+  .imageWrapper {
+    width: 150px;
+    height: 190px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .textWrapper{
+    font-size: 8px;
+    font-weight:500;
+  }
+}
+@media (max-width:749px)
+{
+  .container {
+    max-width: 450px;
+    margin: auto;
+    padding:15px;
+  }
+
+  .imageWrapper {
+    width: 120px;
+    height: 150px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .textWrapper{
+    font-size: 4px;
+    font-weight:500;
+  }
+}
+
+/* For screens below 600px */
+@media (max-width: 499px) {
+  .container {
+    max-width: 350px;
+    padding: 4px;
+    margin: auto;
+
+  }
+
+  .imageWrapper {
+    width: 100px;
+    height: 90px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  .textWrapper{
+    font-size: 4px;
+    font-weight:500;
+    margin-top: 20px;
+  }
+}
+
+  /* For screens larger than 1024px */
+@media (min-width: 1024px) {
+  .container {
+    max-width:100%;
+    margin: auto;
+    /* margin-bottom: 30px; */
+  }
+
+  .imageWrapper {
+    width: 200px;
+    height: 260px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* For screens between 600px and 1023px */
+@media (max-width: 1023px) and (min-width: 750px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:15px;
+  }
+
+  .imageWrapper {
+    width: 150px;
+    height: 190px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width:749px)
+{
+  .container {
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:15px;
+  }
+
+  .imageWrapper {
+    width: 120px;
+    height: 150px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* For screens below 600px */
+@media (max-width: 499px) {
+  .container {
+    max-width: 350px;
+    padding: 4px;
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
+
+  .imageWrapper {
+    width: 100px;
+    height: 90px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+

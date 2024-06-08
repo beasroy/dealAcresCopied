@@ -1,0 +1,84 @@
+.ServiceBlock{
+    border: 1px solid black;
+    width: 200px;
+    height: 170px;
+    padding: 20px;
+    margin: 0px 10px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+.ServiceBlock img{
+    height: 100px;
+    width: auto;
+    margin: 0px auto;
+    padding: 20px;
+}
+.ServiceBlock p{
+    text-align: center;
+    margin-top: auto !important;
+}
+
+.PropertyService{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MoreService{
+    background-color: #0061fd;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.Services{
+    padding-left: 10px;
+}
+
+.Services h2{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Services p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 500px){
+    .ServiceBlock{
+     
+        width: 80px;
+        height: 80px;
+        padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      flex-grow: unset;
+    }
+    .ServiceBlock img{
+        height: 35px;
+        width: auto;
+        padding: 3px;
+    }
+    .ServiceBlock p{
+        @apply text-[0.6rem] leading-4 text-center mx-auto mt-4
+    }
+    .MoreService{
+       
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .Services h2{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    .Services p{
+        font-size: 14px;
+    }
+  
+}

@@ -1,0 +1,136 @@
+.popularProjectCardContainer {
+    width: 168px;
+    height: 270px;
+    border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 20px;
+    padding: 4px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(26, 25, 25, 0.2); 
+  }
+  
+  
+  
+  .ImgCont{
+      position: relative;
+      width: 95%;
+      height: 45%;
+      overflow: hidden;
+      border-radius: 5px;
+      margin-bottom: 5px;
+  }
+  
+  .popularCardContentContainer{
+      width: 95%;
+  }
+  
+  .popularCardContentContainer h4{
+      font-size: 18px;
+      font-weight: 700;
+  }
+  
+  .popularCardContentContainer p{
+      font-size: 12px;
+  }
+  
+  .popularCardContentContainer h3{
+      font-size: 15px;
+      font-weight: 700;
+  }
+  
+  .popularCardBtnContainer{
+      width: 95%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  .popularCardBtnContainer button{
+      height: 25px;
+      width: 90px;
+      font-size: 12px;
+      font-weight: 700;
+      background-color: #0061df;
+      color: white;
+      border-radius: 5px;
+  }
+  
+
+
+@media screen and (max-width: 768px) {
+        .popularProjectCardContainer {
+  min-width: 180px;
+  min-height: 270px;
+  max-width: 180px;
+  max-height: 270px;
+  /* border: 2px solid rgba(0, 0, 0, 0.25);  */
+  border-radius: 20px;
+  padding:  6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.ImgCont{
+    position: relative;
+    width: 95%;
+    height: 45%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.popularCardContentContainer{
+    width: 95%;
+}
+
+.popularCardContentContainer h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.popularCardContentContainer p{
+    font-size: 12px;
+}
+
+.popularCardContentContainer h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.popularCardBtnContainer{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.popularCardBtnContainer button{
+    height: 25px;
+    width: 90px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #0061df;
+    color: white;
+    border-radius: 5px;
+}
+
+
+}
+
+@media screen and (max-width: 420px){
+    .popularProjectCardContainer {
+        max-height: 240px;
+        min-height: 240px;
+    }
+
+
+    .popularCardBtnContainer button {
+        width: 70px;
+    }
+}

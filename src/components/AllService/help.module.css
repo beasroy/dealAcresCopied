@@ -1,0 +1,49 @@
+.Filter {
+    width: 40%;
+    background-color: #86acc7;
+    margin: auto;
+    padding: 35px;
+    border-radius: 30px;
+}
+.Filter select{
+    padding: 10px 10px;
+    color: black;
+    border-radius: 7px;
+    margin: 7px 0px;
+    width: 100%;
+}
+
+.Filter option{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.SubmitButton button{
+    background: #fff;
+    color: #86acc7;
+    padding:  5px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.SubmitButton{
+    text-align: center;
+}
+
+.help{
+    background: url("../../../public/allService/help.jpg");
+    background-position: bottom;
+    background-size: cover;
+    padding: 70px 0px;
+    margin: 20px 0px;
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 500px){
+    .Filter {
+        width: 85%;
+    }
+    .help{
+        margin-bottom: 40px; 
+    }
+}

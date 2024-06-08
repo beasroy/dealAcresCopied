@@ -1,0 +1,14 @@
+.aboutDevContent {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(26, 25, 25, 0.2); 
+}
+
+.aboutDevContent h6{
+    cursor: pointer;
+    margin-top: 4px;
+    color: #0061df;
+    font-weight: 700;
+}

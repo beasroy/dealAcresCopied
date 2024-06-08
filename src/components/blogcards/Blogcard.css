@@ -1,0 +1,32 @@
+/* styles.css or your preferred stylesheet */
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    /* Other card styling */
+  }
+  
+  .heading {
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+    /* Other heading styling */
+  }
+  
+  .line {
+    width: 3px; /* Adjust thickness as needed */
+    height: 100%;
+    background-color: white; /* Line color */
+    margin-right: 10px; /* Spacing between line and content */
+  }
+  
+  .content {
+    flex: 1;
+    /* Other content styling */
+  }
+  
+  .readmore {
+    /* Read more button styling */
+  }
+  

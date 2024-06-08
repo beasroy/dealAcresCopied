@@ -1,0 +1,45 @@
+.leaveReviewContainer{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.leaveReviewLine{
+    width: 100%;
+    height: 1px;
+    background-color: #d5d5d5;
+}
+
+.leaveReviewFieldContainer{
+    margin-top: 1rem;
+}
+
+.leaveReviewContainer button{
+    min-height: 40px;
+    background-color: rgb(40, 161, 40);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 15px 5px 15px;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px){
+    .leaveReviewContainer {
+        margin-top: 1rem;
+    }
+
+    .leaveReviewFieldContainer {
+        margin-top: 6px;
+    }
+
+    .leaveReviewFieldContainer label {
+        font-size: 14px;
+    }
+
+    .leaveReviewContainer button {
+        font-size: 12px;
+        padding: 4px 8px;
+        margin-top: 6px;
+    }
+}

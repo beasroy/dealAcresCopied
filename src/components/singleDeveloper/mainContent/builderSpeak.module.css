@@ -1,0 +1,63 @@
+.builderSpeakContainer{
+    width: 100%;
+    border: 2px solid rgba(0, 0, 10, 0.25); 
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(26, 25, 25, 0.2); 
+}
+
+.subCategories{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #dbdbdb;
+}
+
+.subCategories p{
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.selected{
+    color: #0061DF;
+    font-weight: 700;
+}
+
+.subContent{
+    padding: 1.5rem;
+    text-align: justify;
+}
+
+.subContent h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.subContent h6{
+    margin-top: 0.5rem;
+    font-weight: 700;
+    color: #0061DF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px){
+    
+.subCategories p{
+    font-size: 16px;
+
+}
+
+.subContent { 
+    padding: 1rem;
+}
+
+.subContent p {
+    font-size: 14px;
+}
+}

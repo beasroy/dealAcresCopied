@@ -1,0 +1,125 @@
+.banner{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.TandCContent{
+    margin: 7rem;
+}
+
+.TandCContent h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.TandCContent div{
+    margin-bottom: 30px;
+}
+
+.TandCContent p{
+    margin-bottom: 10px;
+}
+
+.TandCContent li{
+    list-style-position: inside;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.TandCContent div ol li{
+    list-style-type: decimal;
+}
+
+.TandCContent ul li, .TandCContent ol ul li{
+    list-style-type: disc;
+}
+
+.TandCContent ol ul li{
+    margin-left: 60px;
+}
+
+.TandCContent ul ul li{
+    margin-left: 100px;
+}
+
+.h3Highlighted{
+    background-color: #FFFF00;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner{
+
+        height: 150px;
+        width: 100%;
+        object-fit: unset;
+    }
+
+    .TandCContent{
+        margin: 0 1rem;
+        border-left: 1px solid rgba(0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: 1.5rem 1rem;
+    }
+    
+    .TandCContent h2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: unset;
+    }
+    
+    .TandCContent div{
+        margin-bottom: 30px;
+    }
+    
+    .TandCContent p{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .TandCContent li{
+        list-style-position: inside;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    
+    .TandCContent div ol li{
+        list-style-type: decimal;
+        font-size: 14px;
+
+    }
+    
+    .TandCContent ul li, .TandCContent ol ul li{
+        list-style-type: disc;
+        font-size: 14px;
+
+    }
+    
+    .TandCContent ol ul li{
+        margin-left: 60px;
+        font-size: 14px;
+
+    }
+    
+    .TandCContent ul ul li{
+        margin-left: 100px;
+        font-size: 14px;
+
+    }
+    
+    .h3Highlighted{
+        background-color: #FFFF00;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+}

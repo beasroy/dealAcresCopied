@@ -1,0 +1,176 @@
+@import '@fontsource/poppins';
+
+.services2Container {
+  display: grid;
+  font-family: 'Poppins', sans-serif; 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin: 3rem 0 3rem 0;
+}
+
+.explore{
+    flex: 1;
+    height: 100%;
+    background-color: rgba(255,211,163,0.4);
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.explore h3{
+    font-family:'Lucida handwriting',sans-serif;
+    color: #C58940;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.explore h3 p{
+    display: inline;
+    font-family: 'Times new roman', sans-serif;
+    color: #000000;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.explore p{
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color:#737373;
+}
+
+.imgContainer{
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.explore h4{
+    margin-top: 1rem;
+}
+
+.explore a{
+    color:#2c77e1;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.explore h6{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sideContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    row-gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.sideSubContent{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.sideContent a{
+    color:#2c77e1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blockSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 140px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.blockSection h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sideimage{
+    width: 108px;
+    height: 81px;
+    object-fit: contain;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .blockSection{
+      width: 250px;
+      height: 140px;
+    }
+
+    .services2Container {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  
+    .explore h3 {
+      font-size: 45px;
+    }
+  
+    .explore h3 span {
+      font-size: 40px;
+    }
+    
+    .sideSubContent{
+        justify-content: center;
+    }
+  }
+  
+  /* Media Query for screens with a maximum width of 900px */
+  @media screen and (max-width: 900px) {
+    .services2Container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  
+    .explore h3 {
+      font-size: 40px;
+    }
+  
+    .explore h3 p {
+      display: block;
+      font-size: 35px;
+    }
+
+    .sideContent{
+        padding:0;
+        align-items: center;
+    }
+  
+    .blockSection {
+      width: 200px;
+    }
+  }
+  
+  /* Media Query for screens with a maximum width of 600px */
+  @media screen and (max-width: 590px) {
+    .services2Container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      overflow: hidden;
+    }
+  
+    .explore h3 {
+      font-size: 30px;
+    }
+  
+    .explore h3 span {
+      font-size: 25px;
+    }
+  
+    .blockSection {
+      width: 300px;
+      height: 120px;
+    }
+  }

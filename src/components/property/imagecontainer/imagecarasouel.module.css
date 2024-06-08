@@ -1,0 +1,41 @@
+.carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+  }
+  
+  .prevButton,
+  .nextButton {
+    position: fixed;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .prevButton {
+    left: 5%;
+  }
+  
+  .nextButton {
+    right: 5%;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .prevButton {
+      left: 3%;
+    }
+    .nextButton {
+      right: 3%;
+    }
+  }

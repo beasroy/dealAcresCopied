@@ -1,0 +1,22 @@
+/* topdev.module.css */
+
+.topdev {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: var(--gap, 8px); 
+  }
+  
+  @media (max-width: 768px) {
+    .topdev {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: flex-start; /* Ensure items align at the start */
+    width: 100%;
+    }
+   
+  }
+  

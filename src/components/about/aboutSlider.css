@@ -1,0 +1,62 @@
+.beforeContainer {
+    content: 'Our Team';
+    position: absolute;
+    font-weight: bold;
+    font-size: 4rem;
+    
+}
+
+.slick-next::before, .slick-prev::before {
+    content: unset;
+}
+
+.slick-next, .slick-prev {
+    top: unset;
+    z-index: 20;
+}
+.slick-next{
+    bottom: -10%;
+    left: 10%;
+}
+.slick-prev{
+    bottom: -10%;
+    left: 0%;
+}
+
+@media  screen and (min-width: 768px) and (max-width: 897px) {
+    .slick-next , .slick-prev {
+        bottom: 40%;
+       
+    }
+
+    .slick-prev{
+        left: 10%;
+    }
+    .slick-next{
+        left: 20%;
+    }
+}
+
+/* @media screen and (min-width: 1500px){
+    .slick-prev {
+        left: -10%;
+    }
+    .slick-next {
+        left: 0%;
+    }
+} */
+
+@media screen and (min-width: 606px) and (max-width: 768px){
+    .slick-list {
+        padding-left: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 606px){
+    .slick-dots li {
+        width: 5px !important;
+        height: 5px !important;
+        margin: 0 3px !important;
+    }
+}

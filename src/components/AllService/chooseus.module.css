@@ -1,0 +1,63 @@
+.ChooseUs h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ChooseUsOpt{
+    display: flex;
+}
+.ChooseUsOpt div{
+    width: 33%;
+}
+.ChooseUsOpt img{
+    height: 150px;
+    margin: auto;
+    padding: 25px;
+    object-fit: cover;
+    width: auto;
+}
+
+.ChooseUsOpt h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 990px){
+    .ChooseUsOpt div{
+        padding: 23px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .ChooseUsOpt{
+        display: flex;
+        flex-direction: row;
+    }
+    .ChooseUs h2{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .ChooseUsOpt h3{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .ChooseUsOpt div{
+        width: 98%;
+    }
+    .ChooseUsOpt div{
+        padding: 5px;
+    }
+    .ChooseUs h2{
+        margin-top: 20px;
+    }
+    .ChooseUsOpt img{
+        height: 70px;
+        margin: auto;
+        padding: 5px;
+        object-fit: cover;
+        width: auto;
+    }
+    .ChooseUsOpt p{
+        font-size: 10px;
+    }
+}

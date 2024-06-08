@@ -1,0 +1,15 @@
+.articles::-webkit-scrollbar {
+  width: 16px; /* Width of the scrollbar */
+  background-color: #f0f0f0; /* Background color of the track */
+}
+
+/* Customize the thumb (the draggable part) */
+.articles::-webkit-scrollbar-thumb {
+  background-color: #1926b3; /* Color of the thumb */
+  border-radius: 6px; /* Round the corners of the thumb */
+}
+
+/* Customize the thumb when hovered */
+.articles::-webkit-scrollbar-thumb:hover {
+  background-color: #000000; /* Color of the thumb on hover */
+}
